@@ -1,0 +1,74 @@
+.reg-form{
+    background-color: white;
+    border: 2px solid;
+    position: relative;
+    margin-left: 720px;
+    width: 20%;
+    padding: 30px;
+}
+
+.reg-form div{
+    width:300px;
+    display: flex;
+}
+.reg-form div label{
+    width:100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.mainnav{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*
+*{
+    margin : 3px;
+    padding : 2px;
+    box-sizing : border-box;
+}
+body{
+    background-color: azure;
+    line-height:1.5;
+}
+.reg-form{
+    max-width : 400px;
+    margin:30px auto;
+    padding: 55px;
+}*/
+.sn{
+
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+
+}
+/*body{
+    background-image: url("med.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+    background-attachment: fixed;
+}*/
+.icons img{
+    border:2px;
+    border-radius:50%;
+    width:70px;height:70px;
+    padding:10px;
+
+}
+
+.icons img:hover{
+    width:100px;
+    height:100px;
+}
+.icons{
+    position: relative;
+    left:40%;
+}
